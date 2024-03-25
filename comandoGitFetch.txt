@@ -1,0 +1,21 @@
+Criar branch do zero via GitLab
+Atualizar as branchs sem dar pull
+
+Ir no nosso projeto
+E clicar em New branch
+
+git checkout UsarFetch
+
+Vai dar erro:
+error: pathspec 'UsarFetch' did not match any file(s) known to git
+
+Dar o comando:
+git fetch
+
+Aí baixa as alterações da branch
+From https://gitlab.com/primeiro-projeto2900812/testegitcomandos
+ * [new branch]      UsarFetch  -> origin/UsarFetch
+
+git checkout UsarFetch
+
+
